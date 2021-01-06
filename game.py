@@ -196,7 +196,7 @@ if __name__ == "__main__":
     GAME_SPRITES['message'] =pygame.image.load('gallery/sprites/s.png').convert_alpha()
     GAME_SPRITES['background'] = pygame.image.load(BACKGROUND).convert()
     GAME_SPRITES['player'] = pygame.image.load(PLAYER).convert_alpha()
-    GAME_SPRITES['base'] =pygame.image.load('gallery/sprites/xss.jpg').convert_alpha()
+    GAME_SPRITES['base'] =pygame.image.load('gallery/sprites/xss2.jpg').convert_alpha()
     GAME_SPRITES['pipe'] =(pygame.transform.rotate(pygame.image.load( PIPE).convert_alpha(), 180), 
     pygame.image.load(PIPE).convert_alpha()
     )
